@@ -1,8 +1,8 @@
 (ns funnel.main
-  (:require [rum.core :as rum]))
+  (:require [rum.core]))
 
-(rum/defc container []
+(rum.core/defc container []
   [:div {:style {:width            "100px"
                  :height           "100px"
-                 :border           "1px solid black"
-                 :background-color "red"}}])
+                 :border           "1px solid rgb(0, 0, 0)"
+                 :background-color "#f00"}}])
